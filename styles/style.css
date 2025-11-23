@@ -206,7 +206,7 @@ main{
 
 /* Resume Style */
 .resume-area{
-    margin-bottom: ;
+    /* margin-bottom: ; */
 }
 .resume-items{
     display: flex;
@@ -239,4 +239,58 @@ main{
     font-weight: 600;
     color: #757575;
     margin-bottom: 20px;
+}
+
+/* Footer style */
+.footer-area{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    margin: 0 auto;
+    padding: 130px 0px;
+    text-align: left;
+}
+.footer-columns1{
+    width: 50%;
+    margin-right: 110px;
+}
+.social-links{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+.footer-columns2{
+    width: 50%;
+}
+
+.footer-columns2 form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-columns2 form input[type=text], .footer-columns2 form input[type=email]{
+    padding: 18px 30px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #474747;
+    border-radius: 5px;
+}
+.footer-columns2 form input[type=text]::placeholder, .footer-columns2 form input[type=email]::placeholder{
+    color: #757575;
+    font-size: 16px;
+}
+.footer-columns2 form textarea{
+    padding: 18px 30px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #474747;
+    border-radius: 5px;
+}
+.footer-columns2 form textarea::placeholder{
+    color: #757575;
+    font-size: 16px;
+}
+.form-btn{
+    width: 25%;
 }
