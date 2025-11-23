@@ -75,7 +75,7 @@
     border-radius: 10px;
 }
 .sec-area2{
-    margin: 125px 110px 0px 110px;
+    margin: 125px 0px 125px 0px;
     text-align: center;
 }
 .item-heading{
@@ -175,7 +175,9 @@ main{
 }
 
 /* What do I do section */
-
+.what-do-des{
+    margin: 0px 110px 30px 110px;
+}
 .cards{     /* card style */
     display: flex;
     text-align: left;
@@ -200,4 +202,41 @@ main{
 .card-text{
     font-size: 16px;
     color: #757575;
+}
+
+/* Resume Style */
+.resume-area{
+    margin-bottom: ;
+}
+.resume-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 80px 0px 50px 0px;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+.resume-item{
+    /* text-align: left; */
+}
+.item-header{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
 }
